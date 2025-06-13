@@ -115,7 +115,7 @@ feedback.textContent = "";
         restartGameButton.style.visibility="visible"
     }
 
-   updateScore(clickedCell);
+    updateScore(clickedCell);
 
 
 
@@ -123,32 +123,25 @@ feedback.textContent = "";
 
 
 function updateScore(cell){
- if (cell.classList.contains('positive-thought')) score+=5;
+    if (cell.classList.contains('positive-thought')) score+=5;
 
 
 else if (cell.classList.contains('obstacle')){
-
-
-  score-=5;
-
+    score-=5;
 }
- document.getElementById("score").textContent = `Score: ${score}`;
-
-
-
-
+document.getElementById("score").textContent = `Score: ${score}`;
 }
 
 
 
 
 function restartGame(){
-  isGameOver=false;
- score = 0;
+    isGameOver=false;
+    score = 0;
 
- feedback.textContent='';
- generateMaze();
- const restartGameButton = document.getElementById("restart");
+    feedback.textContent='';
+    generateMaze();
+    const restartGameButton = document.getElementById("restart");
 
 restartGameButton.style.visibility="hidden" // hides until the game starts or is triggered again
 

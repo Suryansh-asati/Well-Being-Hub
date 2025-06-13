@@ -98,29 +98,6 @@ signupButton.addEventListener("click", function() {
     main.style.display = "none";
     createacct.style.display = "block";
 });
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyD9ivx7MTM82DBcChqnQJP_uxFprMJkIY4",
-    authDomain: "well-being-hub-e75d8.firebaseapp.com",
-    projectId: "well-being-hub-e75d8",
-    storageBucket: "well-being-hub-e75d8.firebasestorage.app",
-    messagingSenderId: "987530013352",
-    appId: "1:987530013352:web:4b6fcdc4b4cf1c81fb709d",
-    measurementId: "G-EK6R5LL2VK"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
 returnBtn.addEventListener("click", function() {
     main.style.display = "block";
     createacct.style.display = "none";
