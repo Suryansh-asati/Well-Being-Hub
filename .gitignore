@@ -1,0 +1,12 @@
+
+# Dead code analysis files
+dead-code-report.md
+dead-code-detector.js
+dead-code-cleanup.js
+improved-dead-code-detector.py
+improved-dead-code-report.md
+
+# Development files
+*.log
+.DS_Store
+Thumbs.db
